@@ -27,7 +27,7 @@ sudo mv terraformer-${PROVIDER}-darwin-amd64 /usr/local/bin/terraformer
 
 * Terraform_0.12.29
 ```
-https://releases.hashicorp.com/terraform/0.12.29/terraform_0.12.29_linux_amd64.zip
+curl -LO https://releases.hashicorp.com/terraform/0.12.29/terraform_0.12.29_linux_amd64.zip
 unzip terraform_0.12.29_linux_amd64.zip
 chmod +x ./terraform
 sudo mv ./terraform /usr/local/bin
