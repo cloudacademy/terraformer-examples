@@ -1,4 +1,8 @@
 
+# Cloud Academy's Course on Terraformer 
+
+[To the Course!](https://cloudacademy.com/course/infrastructure-to-code-with-terraformer-1135/course-introduction/)
+
 ## Installing Terraformer
 
 * Linux
