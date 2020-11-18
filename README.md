@@ -81,7 +81,7 @@ terraformer import google --resources=instances --projects=cloudacademyprod --re
 ```
 terraformer import google --resources=addresses,autoscalers,backendBuckets,backendServices,bigQuery,cloudFunctions,cloudsql,dataProc,disks,externalVpnGateways,dns,firewall,forwardingRules,gcs,gke,globalAddresses,globalForwardingRules,healthChecks,httpHealthChecks,httpsHealthChecks,iam,images,instanceGroupManagers,instanceGroups,instanceTemplates,instances,interconnectedAttachments,kms,logging,memoryStore,monitoring,networks,packetMirrorings,nodeGroups,nodeTemplates,project,pubsub,regionAutoscalers,regionBackendServices,regionDisks,regionHealthChecks,regionInstanceGroups,regionSslCertificates,regionTargetHttpProxies,regionTargetHttpsProxies,regionUrlMaps,reservations,resourcePolicies,regionInstanceGroupManagers,routers,routes,schedulerJobs,securityPolicies,sslCertificates,sslPolicies,subnetworks,targetHttpProxies,targetHttpsProxies,targetInstances, targetPools,targetSslProxies,targetTcpProxies,targetVpnGateways,urlMaps,vpnTunnels --projects=cloudacademyprod --regions=us-central1
 ```
-
+_The above code example will likely have you running into API issues in GCP. They are required to be enabled, so don't expect this to work on the first go!_
 ```
 terraformer plan google --resources=instances --projects=cloudacademyprod --regions=us-central1
 ```
